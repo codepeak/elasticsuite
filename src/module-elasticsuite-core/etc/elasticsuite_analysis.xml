@@ -129,7 +129,7 @@
                 <char_filter ref="html_strip" />
             </char_filters>
         </analyzer>
-        <analyzer name="reference" tokenizer="whitespace" language="default">
+        <analyzer name="codepeakreference" tokenizer="whitespace" language="default">
             <filters>
                 <filter ref="reference_delimiter"/>
                 <filter ref="lowercase"/>
